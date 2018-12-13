@@ -2,16 +2,6 @@ import os
 print (os.path.abspath(__file__))
 print(os.path.dirname(os.path.abspath(__file__)) + '\..')
 
-def  func(n):
-    lt = []
-    for i in range(1, n+1):
-        if i % 2 == 0:
-            lt.append(i)
-            yield i
-        return lt
-f = func(10)
-print(f,type(f))
-print(next(f))
 
 # for i in f:
 #     print(i)
