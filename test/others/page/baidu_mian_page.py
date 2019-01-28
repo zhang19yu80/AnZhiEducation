@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from test.page.page import Page
+from test.others.page import Page
 
 class BaiDuMainPage(Page):
     loc_search_input = (By.ID, 'kw')

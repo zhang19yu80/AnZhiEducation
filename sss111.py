@@ -1,4 +1,8 @@
 import os
+from config import config
+
+s = config.Config().get('URL')
+print(s)
 print (os.path.abspath(__file__))
 print(os.path.dirname(os.path.abspath(__file__)) + '\..')
 

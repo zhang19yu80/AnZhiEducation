@@ -1,4 +1,4 @@
-URL: http://www.baidu.com
+URL: https://testadmin.xiaopay.net
 log:
     file_name: test.log
     backup: 5

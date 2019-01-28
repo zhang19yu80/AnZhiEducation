@@ -8,7 +8,7 @@ from log.log import logger
 from utils.file_reader.excel_reader import ExcelReader
 from utils.HTMLTestRunner_PY3 import HTMLTestRunner
 from utils.mail import Email
-from test.page.baidu_result_page import BaiDuMainPage, BaiDuResultPage
+from test.others.page.baidu_result_page import BaiDuResultPage
 
 class TestBaiDu(unittest.TestCase):
     #URL = "http://www.baidu.com"
