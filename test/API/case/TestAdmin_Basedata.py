@@ -96,7 +96,7 @@ class TestAdmin(unittest.TestCase):
         res_json = response.json()
         self.assertEqual(response.status_code, 200, "Fail-此API不通！")
         self.assertIn(res_json['ack'], '0', "Fail-没有添加成功")
-        logger.info('完成 TestAdmin_Basedata - test_EditWechatCommercialTenantManage(8),状态码: %s' % response.status_code)
+        logger.info('完成 TestAdmin_Basedata - test_EditWechatCommercialTenantManage(8),状态码: %s'%response.status_code)
 
 
 
