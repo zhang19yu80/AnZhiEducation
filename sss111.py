@@ -1,10 +1,13 @@
-import os
-from config import config
 
-s = config.Config().get('URL')
-print(s)
-print (os.path.abspath(__file__))
-print(os.path.dirname(os.path.abspath(__file__)) + '\..')
+
+
+# s = test123.get_somethings().get_jsessionid()
+# print(s)
+
+# p = general.Get_Somethings().get_jsessionid()
+# print(p)
+# print (os.path.abspath(__file__))
+# print(os.path.dirname(os.path.abspath(__file__)) + '\..')
 
 
 # for i in f:

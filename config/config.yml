@@ -1,7 +1,8 @@
-URL: https://testadmin.xiaopay.net
+AdminURL: https://testadmin.xiaopay.net
+XiaopayURL: https://test.xiaopay.net
 log:
-    file_name: test.log
-    backup: 5
+    file_name: API_test.log
+    backup: 10
     console_level: WARNING
-    file_level: DEBUG
+    file_level: INFO
     pattern: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'

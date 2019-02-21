@@ -1,4 +1,4 @@
-import  time
+import time
 import os
 from selenium import webdriver
 from config.config import DRIVER_PATH, REPORT_PATH

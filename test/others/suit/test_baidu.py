@@ -48,7 +48,7 @@ if __name__ == '__main__':
         runner.run(TestBaiDu('test_search'))
     e = Email(title='百度搜索测试报告',
               message='这是今天的测试报告，请查收！',
-              receiver='601875688@qq.com',
+              receiver='28766012@qq.com',
               server='smtp.163.com',
               sender='zhang19yu80@163.com',
               password='8FangPing',

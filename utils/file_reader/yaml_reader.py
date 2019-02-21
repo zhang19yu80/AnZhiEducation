@@ -18,7 +18,7 @@ class YamlReader(object):
         return self._data
 
 
-# if __name__ == '__main__':
-#     y = 'E:\EBCAutoTestingProjects\TestFramework\config\config.yml\config.yml'
-#     reader = YamlReader(y)
-#     print(reader.data)
+if __name__ == '__main__':
+    y = 'E:\AnZhiEducationTestFramework\config\config.yml'
+    reader = YamlReader(y)
+    print(reader.data)
