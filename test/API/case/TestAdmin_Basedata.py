@@ -61,7 +61,7 @@ class TestAdmin(unittest.TestCase):
         res_json = response.json()
         self.assertEqual(response.status_code, 200, "Fail-此API不通！")
         self.assertIn(res_json['ack'], '0', "Fail-没有添加成功")
-        logger.info('完成 TestAdmin_Basedata - Edit_AddWechatManage(5),状态码: %s'%response.status_code)
+        logger.info('完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: %s'%response.status_code)
 
     def test_WechatCommercialTenantManage(self):
         data = {"wechattype":"","wechatname":"","fun":34,"settingtype":"","pageindex":1,"pagesize":10}
@@ -105,6 +105,7 @@ class TestAdmin(unittest.TestCase):
         self.assertEqual(response.status_code, 200, "Fail-此API不通！")
         self.assertIn(res_json['ack'], '0', "Fail-没有添加成功")
         logger.info('完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: %s'%response.status_code)
+
 
 
 if __name__ == '__mian__':

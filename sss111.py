@@ -1,3 +1,8 @@
+class Students(object):
+    AAA = 1
+    def Good(self):
+        print('Very Good')
+
 
 
 
@@ -32,7 +37,7 @@
 # b = A()
 # c = A()
 # print(A.c_num)
-
+#
 # a.c_num = 2
 # a.i_num = 3
 # print(a.c_num)
@@ -70,7 +75,7 @@
 # print(student.name)
 
 
-# class A:
+# class A(object):
 #     def say_hello(self):
 #         print('CaLL A.say_hello()')
 #
@@ -79,7 +84,7 @@
 #         print('Call B.say_hello()')
 #         super().say_hello()
 #
-# b =B()
+# b =A()
 # b.say_hello()
 
 # class A(object):
