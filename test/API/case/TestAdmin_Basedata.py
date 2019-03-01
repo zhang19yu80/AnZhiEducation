@@ -1,11 +1,10 @@
 from test.API.API_common import general
 from log.log import logger
+from config.config import Config
 import unittest, requests, time
 
 class TestAdmin(unittest.TestCase):
     URL_platform = general.url + general.sub_url[1]
-    URL_wechat = general.url + general.sub_url[2]
-    URL_wechatTL = general.url + general.sub_url[3]
     header = general.header
 
     @classmethod
@@ -35,16 +34,18 @@ class TestAdmin(unittest.TestCase):
         logger.info('完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: %s'%response.status_code)
 
     def test_WechatMenuConfig(self):
+        URL_wechat = Config().get('AdminURL') + '/youbay/svpc/QueryWechatMenu'
         data = {"appid":"wx366651f06fadab1c"}
-        response = requests.post(self.URL_wechat, data=data, headers=self.header)
+        response = requests.post(URL_wechat, data=data, headers=self.header)
         res_json = response.json()
         self.assertEqual(response.status_code,200,"Fail-此API不通！")
         self.assertEqual(res_json['ack'],'0',"Fail-没有获得数据")
         logger.info('完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: %s'%response.status_code)
 
     def test_WechatTemplateList(self):
+        URL_wechatTL = Config().get('AdminURL') + '/youbay/svpc/QuerylWechatPushTempLateList'
         data = {"appid":"wx366651f06fadab1c","pageindex":"1","pagesize":"10"}
-        response = requests.post(self.URL_wechatTL, data=data, headers=self.header)
+        response = requests.post(URL_wechatTL, data=data, headers=self.header)
         res_json = response.json()
         self.assertEqual(response.status_code,200,"Fail-此API不通！")
         self.assertEqual(res_json['ack'],'0',"Fail-没有获得数据")
@@ -105,6 +106,7 @@ class TestAdmin(unittest.TestCase):
         self.assertEqual(response.status_code, 200, "Fail-此API不通！")
         self.assertIn(res_json['ack'], '0', "Fail-没有添加成功")
         logger.info('完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: %s'%response.status_code)
+
 
 
 

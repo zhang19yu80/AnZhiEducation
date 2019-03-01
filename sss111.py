@@ -1,8 +1,15 @@
-class Students(object):
-    AAA = 1
-    def Good(self):
-        print('Very Good')
 
+
+# class AAA(object):
+#     s = 123
+#     def BBB(self):
+#         x = 456
+#         self.y = 789
+#
+#
+#
+# d = AAA()
+# d.y
 
 
 
@@ -145,5 +152,3 @@ class Students(object):
 #
 # player2 = MusicPlayer()
 # print(player2)
-
-

@@ -1,30 +1,22 @@
-2019-02-21 10:38:46,405 - framework - INFO - 1.完成 test_platform,状态码:200
-2019-02-21 10:43:05,568 - framework - INFO - 3.完成 test_WechatMenuConfig,状态码: 200
-2019-02-21 10:43:29,297 - framework - INFO - 2.完成 test_AddWechatManage,状态码: 200
-2019-02-21 10:43:29,447 - framework - INFO - 1.完成 test_WechatManage,状态码: 200
-2019-02-21 10:43:29,673 - framework - INFO - 3.完成 test_WechatMenuConfig,状态码: 200
-2019-02-21 10:43:29,817 - framework - INFO - 4.完成 test_WechatMenuConfig,状态码: 200
-2019-02-21 10:47:00,028 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_mian(1),状态码:200
-2019-02-21 10:47:00,144 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform(2),状态码:200
-2019-02-21 10:47:00,383 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform(2),状态码:200
-2019-02-21 10:47:00,554 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform_editaccount(4),状态码:200
-2019-02-21 11:02:23,925 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform_addaccount(3),状态码:200
-2019-02-21 11:06:05,799 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
-2019-02-21 13:48:21,325 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
-2019-02-21 13:48:22,653 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
-2019-02-21 13:48:25,227 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
-2019-02-21 13:48:26,824 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
-2019-02-21 15:11:20,790 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
-2019-02-21 15:11:22,688 - framework - INFO - 完成 TestAdmin_Basedata - Edit_AddWechatManage(5),状态码: 200
-2019-02-21 15:11:23,203 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
-2019-02-21 15:11:23,734 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
-2019-02-21 15:11:24,633 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
-2019-02-21 15:11:24,791 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
-2019-02-21 15:55:19,298 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatCommercialTenantManage(7),状态码: 200
-2019-02-21 15:55:19,556 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
-2019-02-21 15:55:25,681 - framework - INFO - 完成 TestAdmin_Basedata - Edit_AddWechatManage(5),状态码: 200
-2019-02-21 15:55:25,811 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
-2019-02-21 15:55:27,261 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
-2019-02-21 15:55:27,783 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
-2019-02-21 15:55:27,906 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
-2019-02-21 16:04:37,753 - framework - INFO - 完成 TestAdmin_Basedata - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-02-27 11:06:29,605 - framework - ERROR - division by zero
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 5, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:08:43,332 - framework - ERROR - division by zero
+2019-02-27 11:10:18,350 - framework - ERROR - division by zero
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:13:31,459 - framework - ERROR - 出现异常了
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:17:31,952 - framework - ERROR - 出现异常了
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by
+2019-02-27 11:18:57,493 - framework - ERROR - 出现异常了

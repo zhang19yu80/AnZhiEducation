@@ -2,7 +2,7 @@ import requests
 from config import config
 
 url = config.Config().get('AdminURL')
-sub_url = ['/youbay/svbasicdata/Login','/youbay/svbasicdata/Platform','/youbay/svpc/QueryWechatMenu','/youbay/svpc/QuerylWechatPushTempLateList']
+sub_url = ['/youbay/svbasicdata/Login','/youbay/svbasicdata/Platform']
 header = {"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
           "Access-Control-Allow-Credentials": "true",
           "Access-Control-Allow-Headers": "X-Requested-With,content-type",
