@@ -1,3 +1,12 @@
+import sys
+from log.log import logger
+
+#
+# def function():
+#     print(sys._getframe().f_code.co_filename)  # 当前位置所在的文件名
+#     print(sys._getframe().f_code.co_name)  # 当前位置所在的函数名
+#     print(sys._getframe().f_code.)  # 当前位置所在的行号
+
 
 
 # class AAA(object):

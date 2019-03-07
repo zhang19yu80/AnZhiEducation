@@ -1,22 +1,274 @@
-2019-02-27 11:06:29,605 - framework - ERROR - division by zero
-Traceback (most recent call last):
-  File "E:/AnZhiEducationTestFramework/sss111.py", line 5, in <module>
-    2 / 0
-ZeroDivisionError: division by zero
-2019-02-27 11:08:43,332 - framework - ERROR - division by zero
-2019-02-27 11:10:18,350 - framework - ERROR - division by zero
-Traceback (most recent call last):
-  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
-    2 / 0
-ZeroDivisionError: division by zero
-2019-02-27 11:13:31,459 - framework - ERROR - 出现异常了
-Traceback (most recent call last):
-  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
-    2 / 0
-ZeroDivisionError: division by zero
-2019-02-27 11:17:31,952 - framework - ERROR - 出现异常了
-Traceback (most recent call last):
-  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
-    2 / 0
-ZeroDivisionError: division by
-2019-02-27 11:18:57,493 - framework - ERROR - 出现异常了
+2019-03-06 20:24:35,525 - framework - INFO - 完成 TestOperation_OperationAnalysis - test_SearchCard(1),状态码: 200
+2019-03-06 20:26:59,869 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_mian(1),状态码:200
+2019-03-06 20:26:59,987 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform(2),状态码:200
+2019-03-06 20:27:00,164 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform_addaccount(3),状态码:200
+2019-03-06 20:27:00,670 - framework - INFO - 完成 TestAdmin_PlatformPermission - test_platform_editaccount(4),状态码:200
+2019-03-06 20:47:10,049 - framework - INFO - 完成 TestOperation_OperationAnalysis - test_SearchCard(1),状态码: 200
+2019-03-07 11:05:06,744 - framework - INFO - attach file E:\AnZhiEducationTestFramework\report\report.html
+2019-03-07 11:05:07,175 - framework - INFO - 发送邮件"百度搜索测试报告"成功! 收件人：28766012@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2019-03-07 11:09:33,932 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
+2019-03-07 11:09:34,116 - framework - INFO - 完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: 200
+2019-03-07 11:09:36,022 - framework - INFO - 完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: 200
+2019-03-07 11:09:36,361 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 11:09:36,555 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
+2019-03-07 11:09:36,817 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 11:09:36,975 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
+2019-03-07 11:24:32,192 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
+2019-03-07 11:24:32,310 - framework - INFO - 完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: 200
+2019-03-07 11:24:34,975 - framework - INFO - 完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: 200
+2019-03-07 11:24:35,149 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 11:24:35,336 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
+2019-03-07 11:24:35,638 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 11:24:35,826 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
+2019-03-07 11:50:51,493 - framework - INFO - 开始 111.py - <module> 自动化测试
+2019-03-07 11:52:42,588 - framework - INFO - 开始 111.py - test1 自动化测试
+2019-03-07 13:49:17,917 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 13:49:18,032 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 13:49:18,334 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
+2019-03-07 13:49:18,334 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 13:49:18,491 - framework - INFO - 完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: 200
+2019-03-07 13:49:18,492 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 13:49:19,745 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 13:49:21,076 - framework - INFO - 完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: 200
+2019-03-07 13:49:21,077 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 13:49:21,518 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 13:49:21,518 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 13:49:21,670 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
+2019-03-07 13:49:21,671 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 13:49:21,920 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 13:49:21,920 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 13:49:22,062 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
+2019-03-07 14:04:07,564 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 14:04:07,745 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 14:04:07,746 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 14:04:08,014 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
+2019-03-07 14:04:08,014 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 14:04:08,153 - framework - INFO - 完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: 200
+2019-03-07 14:04:08,154 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 14:04:09,519 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 14:04:10,943 - framework - INFO - 完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: 200
+2019-03-07 14:04:10,943 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 14:04:11,074 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 14:04:11,074 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 14:04:11,245 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
+2019-03-07 14:04:11,246 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 14:04:11,497 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 14:04:11,498 - framework - INFO - 开始 \AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 14:04:11,669 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
+2019-03-07 14:08:08,013 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:18:22,469 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:19:10,877 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:20:28,972 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:20:28,973 - framework - INFO - 开始 ['E:/AnZhiEducationTestFramework/test/API/case/222.py'] - <module> 自动化测试
+2019-03-07 14:20:53,311 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:20:53,312 - framework - INFO - 开始 ['E:', 'AnZhiEducationTestFramework', 'test', 'API', 'case', '222.py'] - <module> 自动化测试
+2019-03-07 14:22:59,671 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:22:59,671 - framework - INFO - 开始 222.py - <module> 自动化测试
+2019-03-07 14:24:35,537 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 14:24:35,869 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 14:24:35,870 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 14:24:37,211 - framework - INFO - 完成 TestAdmin_Basedata - test_AddWechatManage(2),状态码: 200
+2019-03-07 14:24:37,212 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 14:24:37,762 - framework - INFO - 完成 TestAdmin_Basedata - test_DataDictMangage(9),状态码: 200
+2019-03-07 14:24:37,763 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 14:24:39,543 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 14:24:41,171 - framework - INFO - 完成 TestAdmin_Basedata - test_Edit_AddWechatManage(5),状态码: 200
+2019-03-07 14:24:41,172 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 14:24:41,341 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 14:24:41,341 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 14:24:41,663 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatManage(1),状态码: 200
+2019-03-07 14:24:41,665 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 14:24:42,045 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 14:24:42,046 - framework - INFO - 开始 E:\AnZhiEducationTestFramework\test\API\case\TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 14:24:42,273 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(4),状态码: 200
+2019-03-07 14:41:28,955 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 14:41:29,238 - framework - INFO - 完成 TestAdmin_Basedata - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 14:56:59,094 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 14:56:59,236 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 14:56:59,237 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 14:57:00,338 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 14:57:00,339 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 14:57:01,642 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 14:57:01,642 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 14:57:04,902 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 14:57:06,404 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 14:57:06,404 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 14:57:06,528 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 14:57:06,529 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 14:57:06,703 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 14:57:06,703 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 14:57:07,024 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 14:57:07,024 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 14:57:07,194 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 14:58:36,248 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 14:58:36,394 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 14:58:36,394 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 14:58:36,648 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 14:58:36,648 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 14:58:36,777 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 14:58:36,777 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 14:58:38,669 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 14:58:38,670 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 14:58:40,077 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 14:58:40,077 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 14:58:40,261 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 14:58:40,262 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 14:58:40,407 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 14:58:40,407 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 14:58:40,706 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 14:58:40,707 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 14:58:40,893 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:04:03,102 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_mian 自动化测试
+2019-03-07 15:04:03,258 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_mian(1),状态码: 200
+2019-03-07 15:04:03,259 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform 自动化测试
+2019-03-07 15:04:03,395 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform(2),状态码: 200
+2019-03-07 15:04:03,396 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_addaccount 自动化测试
+2019-03-07 15:04:03,563 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_addaccount(3),状态码: 200
+2019-03-07 15:04:03,564 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_editaccount 自动化测试
+2019-03-07 15:04:03,892 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_editaccount(4),状态码: 200
+2019-03-07 15:04:14,216 - framework - INFO - 开始 TestOperation_SchoolManage.py - test_AddAgent 自动化测试
+2019-03-07 15:04:14,413 - framework - INFO - 完成 TestOperation_SchoolManage.py - test_AddAgent(1),状态码: 200
+2019-03-07 15:07:18,547 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 15:07:18,724 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 15:07:18,724 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 15:07:19,315 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 15:07:19,316 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 15:07:19,854 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 15:07:19,855 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 15:07:24,096 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 15:07:24,096 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 15:07:25,851 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 15:07:25,852 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 15:07:25,983 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 15:07:25,983 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 15:07:27,484 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 15:07:27,484 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 15:07:27,733 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 15:07:27,734 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 15:07:27,866 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:37:09,443 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 15:37:10,727 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 15:37:10,727 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 15:37:11,004 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 15:37:11,005 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 15:37:11,137 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 15:37:11,138 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 15:37:12,525 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 15:37:12,526 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 15:37:13,967 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 15:37:13,968 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 15:37:14,129 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 15:37:14,130 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 15:37:14,276 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 15:37:14,277 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 15:37:14,567 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 15:37:14,567 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 15:37:14,726 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:41:27,046 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 15:41:27,178 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 15:41:27,179 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 15:41:27,539 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 15:41:27,540 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 15:41:27,696 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 15:41:27,697 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 15:41:28,979 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 15:41:28,980 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 15:41:30,372 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 15:41:30,373 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 15:41:30,487 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 15:41:30,488 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 15:41:30,652 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 15:41:30,653 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 15:41:30,906 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 15:41:30,906 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 15:41:31,019 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:42:48,846 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 15:42:49,046 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 15:42:49,046 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 15:42:49,289 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 15:42:49,289 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 15:42:49,405 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 15:42:49,405 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 15:42:50,771 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 15:42:50,771 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 15:42:52,130 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 15:42:52,130 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 15:42:52,291 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 15:42:52,292 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 15:42:52,443 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 15:42:52,443 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 15:42:52,774 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 15:42:52,775 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 15:42:52,911 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:42:52,912 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_mian 自动化测试
+2019-03-07 15:42:53,022 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_mian(1),状态码: 200
+2019-03-07 15:42:53,022 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform 自动化测试
+2019-03-07 15:42:53,208 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform(2),状态码: 200
+2019-03-07 15:42:53,208 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_addaccount 自动化测试
+2019-03-07 15:42:53,340 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_addaccount(3),状态码: 200
+2019-03-07 15:42:53,340 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_editaccount 自动化测试
+2019-03-07 15:42:53,698 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_editaccount(4),状态码: 200
+2019-03-07 15:42:53,699 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchAgent 自动化测试
+2019-03-07 15:42:53,868 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchAgent(1),状态码: 200
+2019-03-07 15:42:53,869 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolPassed 自动化测试
+2019-03-07 15:42:54,048 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolPassed(3),状态码: 200
+2019-03-07 15:42:54,049 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolRejected 自动化测试
+2019-03-07 15:42:54,178 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolRejected(4),状态码: 200
+2019-03-07 15:42:54,179 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolWait 自动化测试
+2019-03-07 15:42:54,315 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolWait(2),状态码: 200
+2019-03-07 15:42:54,315 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_AgentList 自动化测试
+2019-03-07 15:42:54,542 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_AgentList(4),状态码: 200
+2019-03-07 15:42:54,543 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_OperationType 自动化测试
+2019-03-07 15:42:54,682 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_OperationType(1),状态码: 200
+2019-03-07 15:42:54,682 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_OperationTypeList 自动化测试
+2019-03-07 15:42:54,811 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_OperationTypeList(2),状态码: 200
+2019-03-07 15:42:54,812 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_PushLogDaily 自动化测试
+2019-03-07 15:42:54,934 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_SendUserDetailList 自动化测试
+2019-03-07 15:42:55,190 - framework - INFO - 开始 TestOperation_SchoolManage.py - test_AddAgent 自动化测试
+2019-03-07 15:42:55,366 - framework - INFO - 完成 TestOperation_SchoolManage.py - test_AddAgent(1),状态码: 200
+2019-03-07 15:45:18,137 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage 自动化测试
+2019-03-07 15:45:19,390 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatCommercialTenantManage(7),状态码: 200
+2019-03-07 15:45:19,390 - framework - INFO - 开始 TestAdmin_Basedata.py - test_AddWechatManage 自动化测试
+2019-03-07 15:45:19,687 - framework - INFO - 完成 TestAdmin_Basedata.py - test_AddWechatManage(2),状态码: 200
+2019-03-07 15:45:19,688 - framework - INFO - 开始 TestAdmin_Basedata.py - test_DataDictMangage 自动化测试
+2019-03-07 15:45:19,815 - framework - INFO - 完成 TestAdmin_Basedata.py - test_DataDictMangage(9),状态码: 200
+2019-03-07 15:45:19,816 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage 自动化测试
+2019-03-07 15:45:23,286 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatCommercialTenantManage(8),状态码: 200
+2019-03-07 15:45:23,287 - framework - INFO - 开始 TestAdmin_Basedata.py - test_EditWechatManage 自动化测试
+2019-03-07 15:45:27,248 - framework - INFO - 完成 TestAdmin_Basedata.py - test_EditWechatManage(5),状态码: 200
+2019-03-07 15:45:27,249 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatCommercialTenantManage 自动化测试
+2019-03-07 15:45:27,367 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatCommercialTenantManage(6),状态码: 200
+2019-03-07 15:45:27,368 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatManage 自动化测试
+2019-03-07 15:45:28,835 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatManage(1),状态码: 200
+2019-03-07 15:45:28,835 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatMenuConfig 自动化测试
+2019-03-07 15:45:29,125 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatMenuConfig(3),状态码: 200
+2019-03-07 15:45:29,125 - framework - INFO - 开始 TestAdmin_Basedata.py - test_WechatTemplateList 自动化测试
+2019-03-07 15:45:29,262 - framework - INFO - 完成 TestAdmin_Basedata.py - test_WechatTemplateList(4),状态码: 200
+2019-03-07 15:45:29,262 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_mian 自动化测试
+2019-03-07 15:45:29,385 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_mian(1),状态码: 200
+2019-03-07 15:45:29,386 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform 自动化测试
+2019-03-07 15:45:29,536 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform(2),状态码: 200
+2019-03-07 15:45:29,537 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_addaccount 自动化测试
+2019-03-07 15:45:30,826 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_addaccount(3),状态码: 200
+2019-03-07 15:45:30,826 - framework - INFO - 开始 TestAdmin_PlatformPermission.py - test_platform_editaccount 自动化测试
+2019-03-07 15:45:32,403 - framework - INFO - 完成 TestAdmin_PlatformPermission.py - test_platform_editaccount(4),状态码: 200
+2019-03-07 15:45:32,404 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchAgent 自动化测试
+2019-03-07 15:45:32,540 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchAgent(1),状态码: 200
+2019-03-07 15:45:32,540 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolPassed 自动化测试
+2019-03-07 15:45:33,976 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolPassed(3),状态码: 200
+2019-03-07 15:45:33,976 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolRejected 自动化测试
+2019-03-07 15:45:34,108 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolRejected(4),状态码: 200
+2019-03-07 15:45:34,109 - framework - INFO - 开始 TestAdmin_PlatformVerify.py - test_SearchSchoolWait 自动化测试
+2019-03-07 15:45:35,566 - framework - INFO - 完成 TestAdmin_PlatformVerify.py - test_SearchSchoolWait(2),状态码: 200
+2019-03-07 15:45:35,566 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_AgentList 自动化测试
+2019-03-07 15:45:35,766 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_AgentList(4),状态码: 200
+2019-03-07 15:45:35,766 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_OperationType 自动化测试
+2019-03-07 15:45:35,930 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_OperationType(1),状态码: 200
+2019-03-07 15:45:35,930 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_OperationTypeList 自动化测试
+2019-03-07 15:45:39,132 - framework - INFO - 完成 TestAdmin_PushMessage.py - test_OperationTypeList(2),状态码: 200
+2019-03-07 15:45:39,132 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_PushLogDaily 自动化测试
+2019-03-07 15:45:39,486 - framework - INFO - 开始 TestAdmin_PushMessage.py - test_SendUserDetailList 自动化测试
+2019-03-07 15:45:39,592 - framework - INFO - 开始 TestOperation_OperationAnalysis.py - test_SearchCard 自动化测试
+2019-03-07 15:45:39,700 - framework - INFO - 完成 TestOperation_OperationAnalysis.py - test_SearchCard(1),状态码: 200
+2019-03-07 15:45:39,700 - framework - INFO - 开始 TestOperation_SchoolManage.py - test_AddAgent 自动化测试
+2019-03-07 15:45:42,459 - framework - INFO - 完成 TestOperation_SchoolManage.py - test_AddAgent(1),状态码: 200

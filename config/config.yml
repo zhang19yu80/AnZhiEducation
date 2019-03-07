@@ -1,5 +1,5 @@
 AdminURL: https://testadmin.xiaopay.net
-XiaopayURL: https://test.xiaopay.net
+OperationURL: https://test.xiaopay.net
 log:
     file_name: API_test.log
     backup: 10

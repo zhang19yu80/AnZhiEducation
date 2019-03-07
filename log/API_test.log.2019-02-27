@@ -1,0 +1,22 @@
+2019-02-27 11:06:29,605 - framework - ERROR - division by zero
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 5, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:08:43,332 - framework - ERROR - division by zero
+2019-02-27 11:10:18,350 - framework - ERROR - division by zero
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:13:31,459 - framework - ERROR - 出现异常了
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by zero
+2019-02-27 11:17:31,952 - framework - ERROR - 出现异常了
+Traceback (most recent call last):
+  File "E:/AnZhiEducationTestFramework/sss111.py", line 4, in <module>
+    2 / 0
+ZeroDivisionError: division by
+2019-02-27 11:18:57,493 - framework - ERROR - 出现异常了
