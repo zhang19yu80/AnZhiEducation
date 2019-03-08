@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
-from test.others.page import Page
+from test.others.page import page
 
-class BaiDuMainPage(Page):
+class BaiDuMainPage(page):
     loc_search_input = (By.ID, 'kw')
     loc_search_button = (By.ID, 'su')
 

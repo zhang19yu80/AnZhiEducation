@@ -8,7 +8,7 @@ from log.log import logger
 from utils.file_reader.excel_reader import ExcelReader
 from utils.HTMLTestRunner_PY3 import HTMLTestRunner
 from utils.mail import Email
-from test.others.page.baidu_result_page import BaiDuResultPage
+# from test.others.page.baidu_result_page import BaiDuResultPage
 
 class TestBaiDu(unittest.TestCase):
     #URL = "http://www.baidu.com"
@@ -41,17 +41,17 @@ class TestBaiDu(unittest.TestCase):
                     logger.info(link.text)
                 self.sub_tearDown()
 
-if __name__ == '__main__':
-    report = config.REPORT_PATH + '\\report.html'
-    with open(report,'wb') as f:
-        runner = HTMLTestRunner(f,verbosity=2,title='易泊充自动化测试报告',description='这是一次 full-testing')
-        runner.run(TestBaiDu('test_search'))
-    e = Email(title='百度搜索测试报告',
-              message='这是今天的测试报告，请查收！',
-              receiver='28766012@qq.com',
-              server='smtp.163.com',
-              sender='zhang19yu80@163.com',
-              password='8FangPing',
-              path=report
-              )
-    e.send()
+# if __name__ == '__main__':
+report = config.REPORT_PATH + '\\report.html'
+with open(report,'wb') as f:
+    runner = HTMLTestRunner(f,verbosity=2,title='易泊充自动化测试报告',description='这是一次 full-testing')
+    runner.run(TestBaiDu('test_search'))
+# e = Email(title='百度搜索测试报告',
+#           message='这是今天的测试报告，请查收！',
+#           receiver='28766012@qq.com',
+#           server='smtp.163.com',
+#           sender='zhang19yu80@163.com',
+#           password='8FangPing',
+#           path=report
+#           )
+# e.send()

@@ -1,6 +1,6 @@
-from test.others.common import Browser
+from test.others.common import browser
 
-class Page(Browser):
+class Page(browser):
     def __init__(self, page=None, browser_type='firefox'):
         if page:
             self.driver = page.driver

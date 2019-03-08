@@ -338,7 +338,7 @@ class Template_mixin(object):
 
     STYLESHEET_TMPL = """
 <style type="text/css" media="screen">
-    body        { font-family: Microsoft YaHei,Consolas,arial,sans-serif; font-size: 80%; }
+    body        { font-family: Microsoft YaHei,Consolas,arial,sans-serif; font-size: 120%; }
     table       { font-size: 100%; }
     pre         { white-space: pre-wrap;word-wrap: break-word; }
     /* -- heading ---------------------------------------------------------------------- */
