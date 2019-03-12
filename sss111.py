@@ -1,5 +1,41 @@
-import sys
-from log.log import logger
+# def fn(var1, var2=[]):
+#   var2.append(var1)
+#   print(var2)
+
+# def fn(var1, var2=None):
+#   if not var2:
+#     var2 =[]
+#   var2.append(var1)
+#   print(var2)
+
+# def fn(var1):
+#     var2 = []
+#     var2.append(var1)
+#     print(var2)
+#
+# fn(3)
+# fn(4)
+# fn(5)
+
+# def get_old(list):
+#     # res = []
+#     for i in list:
+#         if i % 2:
+#             yield i
+#     # return res
+#
+# def main():
+#     lst = range(10)
+#     for i in get_old(lst):
+#         print(i)
+#
+#
+# # main()
+#
+# res = (x for x in range(10))
+# print(next(res))
+# print(next(res))
+# print(next(res))
 
 #
 # def function():

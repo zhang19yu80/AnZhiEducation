@@ -5,6 +5,8 @@ url = config.Config().get('AdminURL')
 url_operate = config.Config().get('OperationURL')
 sub_url = ['/youbay/svbasicdata/Login',
            '/youbay/svbasicdata/Platform',
+           '/youbay/svbasicdata/Common',
+           '/youbay/svbasicdata/School',
            '/youbay/svbasicdata/Agent']
 
 header = {"Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
