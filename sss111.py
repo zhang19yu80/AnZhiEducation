@@ -1,3 +1,58 @@
+from log.log import logger
+import sys, time
+
+def log(func):
+    def zsq(*args,**kwargs):
+        logger.info("开始 {0} - {1} 自动化测试".format(
+            sys._getframe().f_code.co_filename.split('\\')[-1],
+            sys._getframe().f_code.co_name))
+        func(*args,**kwargs)
+        logger.info('完成 {} - {}(1)'.format(
+            sys._getframe().f_code.co_filename.split('\\')[-1],
+            sys._getframe().f_code.co_name))
+    return zsq
+
+def timer(func):
+    def zsq(*args,**kwargs):
+        print('开始时间%s'%time.time())
+        time.sleep(3)
+        func(*args,**kwargs)
+        print('结束时间%s'%time.time())
+    return zsq
+
+
+@timer
+def test1():
+    print('正在运行测试用例。')
+
+test1()
+
+# def my_generator(n):
+#     for i in range(n):
+#         temp = yield
+#         print(f'我是{temp}')
+#
+# g=my_generator(5)
+#
+# print(next(g)) #输出0
+#
+# print(next(g)) #输出1
+#
+# g.send(100) #本来输出2，但是传入新的值100，改为输出100
+#
+# print(next(g)) #输出3
+#
+# print(next(g)) #输出4
+
+# his = im.histogram()
+# values = {}
+#
+# for i in range(256):
+#     values[i] = his[i]
+#
+# for j, k in sorted(values.items(), key=lambda x: x[1], reverse=True)[:10]:
+#     print(j,k)
+
 # def fn(var1, var2=[]):
 #   var2.append(var1)
 #   print(var2)
@@ -7,7 +62,7 @@
 #     var2 =[]
 #   var2.append(var1)
 #   print(var2)
-
+#
 # def fn(var1):
 #     var2 = []
 #     var2.append(var1)

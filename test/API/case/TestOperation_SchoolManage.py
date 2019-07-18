@@ -1,6 +1,6 @@
 from test.API.API_common import general
 from log.log import logger
-import unittest, requests, time, sys, json
+import unittest, requests, time, sys
 
 class TestAdmin(unittest.TestCase):
     header = general.header
