@@ -19,6 +19,6 @@ class YamlReader(object):
 
 
 if __name__ == '__main__':
-    y = 'E:\AnZhiEducationTestFramework\config\config.yml'
+    y = 'E:\AnZhiEducationTestFramework\config\conf1ig.yml'
     reader = YamlReader(y)
     print(reader.data)

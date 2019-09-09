@@ -56,7 +56,7 @@ class ExcelReader(object):
         return self._data
 
 # if __name__ == '__main__':
-#     e = 'E:\EBCAutoTestingProjects\TestFramework\data\baidu.xlsx\baidu.xlsx'
+#     e = 'E:\EBCAutoTestingProjects\TestFramework\data\parameter.xlsx\parameter.xlsx'
 #     reader = ExcelReader(e, title_line=True)
 #     print(reader.data)
 

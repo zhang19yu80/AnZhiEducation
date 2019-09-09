@@ -13,7 +13,7 @@ from utils.mail import Email
 class TestBaiDu(unittest.TestCase):
     #URL = "http://www.baidu.com"
     URL = config.Config().get('URL')
-    excel = config.DATA_PATH + '/baidu.xlsx'
+    excel = config.DATA_PATH + '/parameter.xlsx'
 
     def sub_setUp(self):
         # 初始页面是main page，传入浏览器类型打开浏览器
