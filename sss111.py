@@ -1,13 +1,122 @@
-import os
-
-print(os.path.abspath(__file__))
-print(os.path.dirname(os.path.abspath(__file__)))
-print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import unittest
+from payment import Payment
+from unittest import mock
 
 
-# BASE_PATH = os.path.split(os.path.dirname(os.path.abspath(__file__)))[0]
-# print(os.path.join(BASE_PATH, 'data'))
+class PaymentTest(unittest.TestCase):
+    """
+    测试支付接口
+    """
 
+    def setUp(self):
+        self.payment = Payment()
+
+    def test_success(self):
+        """
+        测试支付成功
+        :return:
+        """
+        self.payment.authe = mock.Mock(return_value=200)
+        res = self.payment.pay(user_id=10001, card_num="123444", amount=1000)
+        self.assertEqual("success", res)
+
+    def test_fail(self):
+        """
+        测试支付成功
+        :return:
+        """
+        self.payment.authe = mock.Mock(return_value=500)
+        res = self.payment.pay(user_id=10002, card_num="1233444", amount=1000)
+        self.assertEqual("fail", res)
+
+    def test_retry_success(self):
+        """
+                测试支付失败重试在成功
+                side_effect 可以为序列类型 异常类型，对象
+                如果为序列类型 每次调用mock对象，会依次将side effcet中的元素返回
+                :return:
+                """
+        self.payment.authe = mock.Mock(side_effect=[TimeoutError, 200])
+        res = self.payment.pay(user_id=10003, card_num="1234444", amount=1000)
+        self.assertEqual("success", res)
+
+
+if __name__ == '__main__':
+    unittest.main()
+
+# from unittest import mock
+# import json
+
+
+# class Connect_things(object):
+#     def weixin(self):
+#         pass
+#
+#     def xiaofeiji(self):
+#         pass
+#
+# class Connect_things_Mock(object):
+#
+#     def weixin_mock(self):
+#         Connect_things.weixin = mock.Mock(return_value={"aaa":"bbb","ccc":4})
+#         return Connect_things.weixin()
+#
+#     def xiaofeiji_mock(self):
+#         pass
+#
+#
+# print(y:=Connect_things_Mock().weixin_mock(),type(y))
+#
+# # n = json.dumps(Connect_things_Mock().weixin_mock())
+# print(n:=json.dumps(Connect_things_Mock().weixin_mock()),type(n))
+#
+# print(x:=json.loads(n),type(x))
+
+
+
+
+
+# class FooParent(object):
+#     def __init__(self):
+#         self.parent = 'I\'m the parent.'
+#         print('Parent')
+#
+#     def bar(self, message):
+#         print("%s from Parent" % message)
+#
+#
+# class FooChild(FooParent):
+#     def __init__(self):
+#         # super(FooChild,self) 首先找到 FooChild 的父类（就是类 FooParent），然后把类 FooChild 的对象转换为类 FooParent 的对象
+#         super(FooChild, self).__init__()
+#         print('Child')
+#
+#     def bar(self, message):
+#         super(FooChild, self).bar(message)
+#         print('Child bar fuction')
+#         print(self.parent)
+#
+#
+# if __name__ == '__main__':
+#     fooChild = FooChild()
+#     fooChild.bar('HelloWorld')
+
+
+
+# from shutil import copyfile
+# import time
+#
+# start_time = time.time()
+# source = 'C:\\smartacs\\images\\student\\3_1301班_俊俊1.jpg'
+# for i in range(2,6001):
+#     target = f'C:\\smartacs\\images\\student\\3_1301班_俊俊{i}.jpg'
+#     copyfile(source,target)
+# end_time = time.time()
+# YS = end_time - start_time
+# print(f'共耗时：{YS}')12
+
+# print(os.path.join(BASE_PATH, 'data'))D
+#
 # class AuctionException(Exception): pass
 # class AuctionTest:
 #     def __init__(self, init_price):
@@ -32,6 +141,7 @@ print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 #     except AuctionException as ae:
 #         # 再次捕获到bid()方法中的异常，并对该异常进行处理
 #         print('main函数捕捉的异常：', ae)
+#
 # main()
 
 # def test(name,state_code=None):

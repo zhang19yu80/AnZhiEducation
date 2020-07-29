@@ -1,2 +1,3 @@
-2019-08-26 15:47:01,108 - framework - INFO - 开始 E:/AnZhiEducationTestFramework/sss111.py - zsq 自动化测试
-2019-08-26 15:47:01,109 - framework - INFO - 完成 E:/AnZhiEducationTestFramework/sss111.py - zsq(1)
+2019-09-10 14:44:13,936 - log.py - WARNING - This is warning log!
+2019-09-10 14:47:01,865 - log.py - WARNING - This is info log!
+2019-09-10 15:13:43,082 - framework - WARNING - This is info log!

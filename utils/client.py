@@ -47,3 +47,4 @@ class HTTPClient(object):
         logger.debug('{0} {1}'.format(self.method, self.url))
         logger.debug('请求成功: {0}\n{1}'.format(response, response.text))
         return response
+

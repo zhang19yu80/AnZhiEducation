@@ -62,7 +62,7 @@ class Get_Somethings(object):
     def login_admin(self):
         '''
         Mark the sessionid with login authentication, and keep to two hours.
-        :return: None
+        :return: results
         '''
         self._new_header()
         sms = "10248520"

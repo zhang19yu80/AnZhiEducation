@@ -5,7 +5,7 @@ from config import config
 from config.config import LOG_PATH
 
 class Logger(object):
-    def __init__(self, logger_name='framework'):
+    def __init__(self, logger_name= 'framework'):
         self.logger = logging.getLogger(logger_name)
         logging.root.setLevel(logging.NOTSET)
         c = config.Config().get('log')
